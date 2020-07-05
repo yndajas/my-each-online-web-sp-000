@@ -1,6 +1,6 @@
 def my_each(array)
   counter = 0
-  while counter < array.length do |item|
+  while counter < array.length
     yield array[item]
     count += 1
   end
